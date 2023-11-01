@@ -36,7 +36,7 @@ int px4_app_main(int argc, char *argv[]) {
 
     int error_counter = 0;
 
-    for (int i = 0; i < 5; i++) {
+    for (int i = 0; i < 500; i++) {
         /* wait for sensor update of 1 file descriptor for 1000 ms (1 second) */
         int poll_ret = px4_poll(fds, 1, 1000);
 
