@@ -31,9 +31,9 @@
 #
 ############################################################################
 px4_add_module(
-	MODULE examples__simple_app
-	MAIN simple_app
+	MODULE examples__px4_app
+	MAIN px4_app
 	SRCS
-		simple_app.c
+		px4_app.c
 	DEPENDS
 	)
