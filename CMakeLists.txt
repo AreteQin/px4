@@ -4,5 +4,4 @@ px4_add_module(
 	SRCS
 		px4_app.c
 	DEPENDS
-		px4_work_queue
 	)

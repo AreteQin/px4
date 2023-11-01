@@ -8,7 +8,7 @@
 #include <math.h>
 
 #include <uORB/uORB.h>
-#include <uORB/topics/vehicle_acceleration.h>
+#include <uORB/topics/sensor_combined.h>
 #include <uORB/topics/vehicle_attitude.h>
 
 __EXPORT int px4_app_main(int argc, char *argv[]);
